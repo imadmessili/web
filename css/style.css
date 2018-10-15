@@ -14,6 +14,22 @@ header
 	background-color: #E8E8E8;
 
 }
+button
+{
+	width: 100px;
+	height: 50px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: 10px;
+	box-shadow: 2px 2px 3px black;
+	border-radius: 2px;
+	background-color: orange;
+}
+
+button:hover
+{
+	transform: scale(1.1);
+}
 #name
 {
 	font-size: 1.5em;
@@ -76,7 +92,6 @@ tr:hover
 	width: 90%;
 	overflow: hidden;
 	margin:auto;
-	border-radius: 5px;
 	text-align: center;
 }
 .container
@@ -85,7 +100,6 @@ tr:hover
 	margin: auto;
 	overflow: hidden;
 	background-color: #E8E8E8;
-	border-radius: 5px;
 	text-align: center;
 
 }
